@@ -6,8 +6,9 @@ public class TestGit {
 		System.out.println("Anders Frid");
 	}
 	
-	//jocke var här xD roflmjao
-	//Jocke är kass
-	//Anders är fan sämst i heeeela världen på att sniffa smuts
-	//Det kommer något stort och varmt emot oss (det var solen)
+	//jocke var hï¿½r xD roflmjao
+	//Jocke ï¿½r kass
+	//Anders ï¿½r fan sï¿½mst i heeeela vï¿½rlden pï¿½ att sniffa smuts
+	//Det kommer nï¿½got stort och varmt emot oss (det var solen)
+	//LMAO
 }
