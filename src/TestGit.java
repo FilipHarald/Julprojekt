@@ -12,6 +12,7 @@ public class TestGit {
 	//Det kommer n�got stort och varmt emot oss (det var solen)
 	//LMAO
 	//LOLOLOLOL
+	//NI SUGER BALLE ...
 	
 	public static void main(String[] args){
 		System.out.println("hej");
