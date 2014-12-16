@@ -2,7 +2,7 @@
 public class TestGit {
 	private String filip = "was here";
 	
-	public void Test(){
+	public static void Test(){
 		System.out.println("Anders Frid");
 	}
 	
@@ -12,4 +12,9 @@ public class TestGit {
 	//Det kommer n�got stort och varmt emot oss (det var solen)
 	//LMAO
 	//LOLOLOLOL
+	
+	public static void main(String[] args){
+		System.out.println("hej");
+		Test();
+	}
 }
