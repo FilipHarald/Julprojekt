@@ -8,4 +8,5 @@ public class TestGit {
 	
 	//jocke var här xD roflmjao
 	//Jocke är kass
+	//Anders är fan sämst i heeeela världen på att sniffa smuts
 }
