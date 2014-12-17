@@ -9,7 +9,7 @@ public class Array7x7 {
 		
 	}
 	
-	public void setElement(int row, int col, int value){
+	public void setElement(int row, int col, int value){//
 		arr7x7[row][col] = value;
 		
 		
