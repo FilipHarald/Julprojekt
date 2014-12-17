@@ -47,7 +47,6 @@ public class Array7x7 {
 	public Array7 moveRight(Array7 arrIn){  //Man ger den nya Array7 som input och får ut Array7 som skulle "trilla av"
 		Array7 arrOut = getCol(7);
 		setCol(0, arrIn);
-		int i;
 		return arrOut;
 	}
 	
