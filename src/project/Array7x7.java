@@ -44,13 +44,13 @@ public class Array7x7 {
 		return temp;
 	}
 	
-	public Array7 moveRight(Array7 arrIn){
+	public Array7 moveRight(Array7 arrIn){  //Man ger den nya Array7 som input och får ut Array7 som skulle "trilla av"
 		Array7 arrOut = getCol(7);
 		setCol(0, arrIn);
 		return arrOut;
 	}
 	
-	public Array7 moveLeft(Array7 arrIn){
+	public Array7 moveLeft(Array7 arrIn){ //Man ger den nya Array7 som input och får ut Array7 som skulle "trilla av"
 		Array7 arrOut = getCol(0);
 		setCol(7, arrIn);
 		return arrOut;
