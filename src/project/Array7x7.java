@@ -6,19 +6,14 @@ public class Array7x7 {
 	
 	public Array7x7(){
 		arr7x7 = new int[7][7];
-		
 	}
 	
 	public void setElement(int row, int col, int value){//
 		arr7x7[row][col] = value;
-		
-		
 	}
 	
 	public int getElement(int row, int col){
-		
 		return arr7x7[row][col];
-		
 	}
 	
 	public void setRow(int row, Array7 theRow){ // vi har tagit bort int col!
@@ -47,5 +42,17 @@ public class Array7x7 {
 			temp.setElement(i, arr7x7[i][col]);
 		}
 		return temp;
+	}
+	
+	public Array7 moveRight(Array7 arrIn){
+		Array7 arrOut = getCol(7);
+		setCol(0, arrIn);
+		return arrOut;
+	}
+	
+	public Array7 moveLeft(Array7 arrIn){
+		Array7 arrOut = getCol(0);
+		setCol(7, arrIn);
+		return arrOut;
 	}
 }
