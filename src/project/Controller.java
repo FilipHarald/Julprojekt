@@ -3,6 +3,7 @@ package project;
 public class Controller {
 	private int[] tempRow;
 	private int[] tempCol;
+	private Array7x7 arr7x7;
 
 	
 	public Controller(){
@@ -13,6 +14,7 @@ public class Controller {
 	
 	public void setRow(int[] row){
 		tempRow = row;
+		arr7x7 = new Array7x7();
 	}
 	
 	public void setCol(int[] col){
