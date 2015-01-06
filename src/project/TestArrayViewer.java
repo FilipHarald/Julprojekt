@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class TestArrayViewer extends JPanel implements ActionListener {
+	JFrame frame;
 	private JPanel inputRowPanel;
 	private JPanel inputColPanel;
 	private JPanel commandPanel;
@@ -17,8 +18,10 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 
 	private JTextField[] arrCol;
 	private JTextField[] arrRow;
+	private JTextArea[] arrArr;
 	
 	private Controller controller;
+	
 
 	public TestArrayViewer(Controller c) {
 		controller = c;
@@ -42,7 +45,7 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 		writeCol = new JButton("Skriv kol");
 		inputColNbr = new JButton("Input kol nr");
 
-		JFrame frame = new JFrame("Testning");
+		frame = new JFrame("Testning");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		commandPanel.setLayout(new GridLayout(6, 1));
@@ -66,13 +69,7 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 			inputColPanel.add(arrCol[i]);
 		}
 		// fylla arrayPanel
-		JTextArea temp;
-//		for (int i = 0; i < 7; i++) {
-//			for(int k = 0; k < 7; k++){
-//				temp = new JTextArea("" + arr7x7.getElement(i, k));
-//				arrayPanel.add(temp);			
-//			}
-//		}
+		paintArray();
 		
 		commandPanel.add(readRow);
 		commandPanel.add(writeRow);
@@ -96,52 +93,67 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 		frame.setVisible(true);
 	}
 		
-		public void actionPerformed(ActionEvent e) {
+	public void actionPerformed(ActionEvent e) {
 			
-			if(e.getSource() == readRow){
-				int temp[] = new int[7];
-				for(int i=0; i < 7; i++){
-					temp[i] = Integer.parseInt(arrRow[i].getText());
-				}
-				controller.setRow(temp);
+		if(e.getSource() == readRow){
+			int temp[] = new int[7];
+			for(int i = 0; i < 7; i++){
+				temp[i] = Integer.parseInt(arrRow[i].getText());
 			}
-			if(e.getSource() == writeRow){
+			controller.storeRow(temp);
+		}
+		if(e.getSource() == writeRow){
+				controller.writeRow();
+				updateArray();
+		}
+		if(e.getSource() == inputRowNbr){
 				
+		}
+		if(e.getSource() == readCol){
+			int temp[] = new int[7];
+			for(int i=0; i < 7; i++){
+				temp[i] = Integer.parseInt(arrCol[i].getText());
 			}
-			if(e.getSource() == inputRowNbr){
+			controller.storeCol(temp);
+		}
+		if(e.getSource() == writeCol){
+			controller.writeCol();
+			updateArray();
+		}
+		if(e.getSource() == inputColNbr){
 				
-			}
-			if(e.getSource() == readCol){
-				int temp[] = new int[7];
-				for(int i=0; i < 7; i++){
-					temp[i] = Integer.parseInt(arrCol[i].getText());
-				}
-				controller.setCol(temp);
-			}
-			if(e.getSource() == writeCol){
-				
-			}
-			if(e.getSource() == inputColNbr){
-				
-			}
-			
+		}
 		
 		
 	}
+		
+	public void paintArray(){
+		JTextArea temp;
+		arrArr = new JTextArea[49];
+		int counter = 0;
+		for (int i = 0; i < 7; i++) {
+			for(int k = 0; k < 7; k++){
+				temp = new JTextArea("" + controller.getElement(i, k));
+				arrayPanel.add(temp);
+				arrArr[counter] = temp;
+				counter++;
+			}
+		}
+	}
+	
+	public void updateArray(){
+		int counter = 0;
+		for (int i = 0; i < 7; i++) {
+			for(int k = 0; k < 7; k++){
+				arrArr[counter].setText("" + controller.getElement(i, k));
+				counter++;
+			}
+		}
+		frame.repaint();
+	}
 
-//	public static void main(String[] args) {
-//		TestArrayViewer lol = new TestArrayViewer();
-//		 int[][] array = new int[][]{
-//		 { 0, 0, 0, 0, 0, 1, 0 },
-//		 { 0, 0, 0, 0, 0, 0, 0 },
-//		 { 0, 1, 0, 0, 0, 1, 0 },
-//		 { 0, 0, 1, 0, 0, 1, 0 },
-//		 { 0, 1, 1, 0, 1, 1, 1 },
-//		 { 0, 0, 1, 0, 1, 0, 0 },
-//		 { 1, 0, 1, 0, 0, 1, 0 }
-//		 };
-//	
-//
-//		
-//	}
+	public static void main(String[] args) {
+		Controller c = new Controller();
+		TestArrayViewer lol = new TestArrayViewer(c);
+	}
 }

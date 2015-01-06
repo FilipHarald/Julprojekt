@@ -5,7 +5,16 @@ public class Array7x7 {
 	
 	
 	public Array7x7(){
-		arr7x7 = new int[7][7];
+//		arr7x7 = new int[7][7];
+		arr7x7 = new int[][]{
+		{ 0, 0, 0, 0, 0, 1, 0 },
+		{ 0, 0, 0, 0, 0, 0, 0 },
+		{ 0, 1, 0, 0, 0, 1, 0 },
+		{ 0, 0, 1, 0, 0, 1, 0 },
+		{ 0, 1, 1, 0, 1, 1, 1 },
+		{ 0, 0, 1, 0, 1, 0, 0 },
+		{ 1, 0, 1, 0, 0, 1, 0 }
+		};
 	}
 	
 	public void setElement(int row, int col, int value){//
@@ -18,7 +27,7 @@ public class Array7x7 {
 	
 	public void setRow(int row, Array7 theRow){ // vi har tagit bort int col!
 		for(int i = 0; i < 7; i++){
-			arr7x7[row][i] = theRow.getElement(i);			
+			arr7x7[row][i] = theRow.getElement(i);
 		}
 	}
 	

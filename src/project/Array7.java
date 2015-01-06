@@ -16,6 +16,14 @@ public class Array7 {
 		return arr7[row];
 	}
 	
+	public void setArray(int[] anArray){
+		for(int i = 0; i < 7; i++){
+			setElement(i, anArray[i]);
+		}
+	}
 	
+	public int[] getArray(){
+		return arr7;
+	}
 
 }

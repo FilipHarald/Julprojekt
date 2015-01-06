@@ -1,31 +1,52 @@
 package project;
 
 public class Controller {
-	private int[] tempRow;
-	private int[] tempCol;
+	private Array7 storedRow;
+	private Array7 storedCol;
 	private Array7x7 arr7x7;
 
 	
 	public Controller(){
-//		tempRow = new int[7];
-//		tempCol = new int[7];
-		
+		storedRow = new Array7();
+		storedCol = new Array7();
+		arr7x7 = new Array7x7();
 	}
 	
-	public void setRow(int[] row){
-		tempRow = row;
+	public void storeRow(int[] row){
+		storedRow.setArray(row);
 	}
 	
-	public void setCol(int[] col){
-		tempCol = col;
+	public void storeCol(int[] col){
+		storedCol.setArray(col);
 	}
 	
-	public int[] getRow(){
-		return tempRow;
+//	public int[] getRow(){
+//		return storedRow.getArray();
+//	}
+//	
+//	public int[] getCol(){
+//		return storedCol.getArray();
+//	}
+
+	public void inputRow(int rowNbr){
+		arr7x7.setRow(rowNbr, storedRow);
 	}
 	
-	public int[] getCol(){
-		return tempCol;
+	public void inputCol(int colNbr){
+		arr7x7.setCol(colNbr, storedCol);
 	}
+	
+	public void writeRow(){
+		inputRow(6);
+	}
+	
+	public void writeCol(){
+		inputCol(0);
+	}
+	
+	public int getElement(int row, int col){
+		return arr7x7.getElement(row, col);
+	}
+	
 	
 }
