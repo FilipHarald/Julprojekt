@@ -3,7 +3,6 @@ package project;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.*;
 
 public class TestArrayViewer extends JPanel implements ActionListener {
@@ -16,12 +15,14 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 	private JButton readRow, writeRow, inputRowNbr, readCol, writeCol,
 			inputColNbr;
 
-	private Array7x7 arr7x7;
 	private JTextField[] arrCol;
 	private JTextField[] arrRow;
+	
+	private Controller controller;
 
-	public TestArrayViewer() {
-		arr7x7 = new Array7x7();
+	public TestArrayViewer(Controller c) {
+		controller = c;
+		
 
 		arrCol = new JTextField[7];
 		arrRow = new JTextField[7];
@@ -66,12 +67,12 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 		}
 		// fylla arrayPanel
 		JTextArea temp;
-		for (int i = 0; i < 7; i++) {
-			for(int k = 0; k < 7; k++){
-				temp = new JTextArea("" + arr7x7.getElement(i, k));
-				arrayPanel.add(temp);			
-			}
-		}
+//		for (int i = 0; i < 7; i++) {
+//			for(int k = 0; k < 7; k++){
+//				temp = new JTextArea("" + arr7x7.getElement(i, k));
+//				arrayPanel.add(temp);			
+//			}
+//		}
 		
 		commandPanel.add(readRow);
 		commandPanel.add(writeRow);
@@ -98,7 +99,11 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
 			
 			if(e.getSource() == readRow){
-				
+				int temp[] = new int[7];
+				for(int i=0; i < 7; i++){
+					temp[i] = Integer.parseInt(arrRow[i].getText());
+				}
+				controller.setRow(temp);
 			}
 			if(e.getSource() == writeRow){
 				
@@ -107,7 +112,11 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 				
 			}
 			if(e.getSource() == readCol){
-				
+				int temp[] = new int[7];
+				for(int i=0; i < 7; i++){
+					temp[i] = Integer.parseInt(arrCol[i].getText());
+				}
+				controller.setCol(temp);
 			}
 			if(e.getSource() == writeCol){
 				
@@ -120,19 +129,19 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 		
 	}
 
-	public static void main(String[] args) {
-		TestArrayViewer lol = new TestArrayViewer();
-		// int[][] array = new int[][]{
-		// { 0, 0, 0, 0, 0, 1, 0 },
-		// { 0, 0, 0, 0, 0, 0, 0 },
-		// { 0, 1, 0, 0, 0, 1, 0 },
-		// { 0, 0, 1, 0, 0, 1, 0 },
-		// { 0, 1, 1, 0, 1, 1, 1 },
-		// { 0, 0, 1, 0, 1, 0, 0 },
-		// { 1, 0, 1, 0, 0, 1, 0 }
-		// };
-	
-
-		
-	}
+//	public static void main(String[] args) {
+//		TestArrayViewer lol = new TestArrayViewer();
+//		 int[][] array = new int[][]{
+//		 { 0, 0, 0, 0, 0, 1, 0 },
+//		 { 0, 0, 0, 0, 0, 0, 0 },
+//		 { 0, 1, 0, 0, 0, 1, 0 },
+//		 { 0, 0, 1, 0, 0, 1, 0 },
+//		 { 0, 1, 1, 0, 1, 1, 1 },
+//		 { 0, 0, 1, 0, 1, 0, 0 },
+//		 { 1, 0, 1, 0, 0, 1, 0 }
+//		 };
+//	
+//
+//		
+//	}
 }

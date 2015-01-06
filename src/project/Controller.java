@@ -14,7 +14,6 @@ public class Controller {
 	
 	public void setRow(int[] row){
 		tempRow = row;
-		arr7x7 = new Array7x7();
 	}
 	
 	public void setCol(int[] col){
