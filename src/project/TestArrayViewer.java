@@ -1,9 +1,12 @@
 package project;
 
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.*;
 
-public class TestArrayViewer extends JPanel {
+public class TestArrayViewer extends JPanel implements ActionListener {
 	private JPanel inputRowPanel;
 	private JPanel inputColPanel;
 	private JPanel commandPanel;
@@ -76,8 +79,39 @@ public class TestArrayViewer extends JPanel {
 		commandPanel.add(writeCol);
 		commandPanel.add(inputColNbr);
 		
+		readRow.addActionListener( this );
+		writeRow.addActionListener(this);
+		inputRowNbr.addActionListener(this);
+		readCol.addActionListener(this);
+		writeCol.addActionListener(this);
+		inputColNbr.addActionListener(this);
+		
 		frame.pack();
 		frame.setVisible(true);
+	}
+		
+		public void actionPerformed(ActionEvent e) {
+			
+			if(e.getSource() == readRow){
+				
+			}
+			if(e.getSource() == writeRow){
+				
+			}
+			if(e.getSource() == inputRowNbr){
+				
+			}
+			if(e.getSource() == readCol){
+				
+			}
+			if(e.getSource() == writeCol){
+				
+			}
+			if(e.getSource() == inputColNbr){
+				
+			}
+			
+		
 		
 	}
 
@@ -92,5 +126,8 @@ public class TestArrayViewer extends JPanel {
 		// { 0, 0, 1, 0, 1, 0, 0 },
 		// { 1, 0, 1, 0, 0, 1, 0 }
 		// };
+	
+
+		
 	}
 }
