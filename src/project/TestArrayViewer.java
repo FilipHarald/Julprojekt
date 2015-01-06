@@ -107,7 +107,9 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 				updateArray();
 		}
 		if(e.getSource() == inputRowNbr){
-				
+			int rowNbr = Integer.parseInt(JOptionPane.showInputDialog(null, "Input row number: "));
+			controller.writeRow(rowNbr);
+			updateArray();
 		}
 		if(e.getSource() == readCol){
 			int temp[] = new int[7];
@@ -121,7 +123,9 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 			updateArray();
 		}
 		if(e.getSource() == inputColNbr){
-				
+			int colNbr = Integer.parseInt(JOptionPane.showInputDialog(null, "Input col number: "));
+			controller.writeCol(colNbr);
+			updateArray();
 		}
 		
 		

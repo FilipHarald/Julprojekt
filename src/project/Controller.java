@@ -40,8 +40,16 @@ public class Controller {
 		inputRow(6);
 	}
 	
+	public void writeRow(int rowNbr){
+		inputRow(rowNbr);
+	}
+	
 	public void writeCol(){
 		inputCol(0);
+	}
+	
+	public void writeCol(int colNbr){
+		inputCol(colNbr);
 	}
 	
 	public int getElement(int row, int col){
