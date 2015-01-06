@@ -11,7 +11,8 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 	private JPanel inputColPanel;
 	private JPanel commandPanel;
 	private JPanel arrayPanel;
-
+	private JPanel southPanel;
+	
 	private JButton readRow, writeRow, inputRowNbr, readCol, writeCol,
 			inputColNbr;
 
@@ -24,11 +25,14 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 
 		arrCol = new JTextField[7];
 		arrRow = new JTextField[7];
-
+		
+		southPanel = new JPanel();
 		inputRowPanel = new JPanel();
+		southPanel.add(inputRowPanel, BorderLayout.CENTER);
 		inputColPanel = new JPanel();
 		commandPanel = new JPanel();
 		arrayPanel = new JPanel();
+		
 
 		readRow = new JButton("Läs rad");
 		writeRow = new JButton("Skriv rad");
@@ -41,14 +45,11 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		commandPanel.setLayout(new GridLayout(6, 1));
-		inputRowPanel.setPreferredSize(new Dimension(70, 70));
 		inputRowPanel.setLayout(new GridLayout(1, 7));
-		inputColPanel.setPreferredSize(new Dimension(70, 70));
 		inputColPanel.setLayout(new GridLayout(7, 1));
-		arrayPanel.setPreferredSize(new Dimension(350, 350));
 		arrayPanel.setLayout(new GridLayout(7, 7));
 
-		frame.add(inputRowPanel, BorderLayout.SOUTH);
+		frame.add(southPanel, BorderLayout.SOUTH);
 		frame.add(inputColPanel, BorderLayout.WEST);
 		frame.add(commandPanel, BorderLayout.EAST);
 		frame.add(arrayPanel, BorderLayout.CENTER);
@@ -86,6 +87,10 @@ public class TestArrayViewer extends JPanel implements ActionListener {
 		writeCol.addActionListener(this);
 		inputColNbr.addActionListener(this);
 		
+		commandPanel.setPreferredSize(new Dimension(70, 200));
+		inputRowPanel.setPreferredSize(new Dimension(490, 70));
+		inputColPanel.setPreferredSize(new Dimension(70, 200));
+		arrayPanel.setPreferredSize(new Dimension(500, 500));
 		frame.pack();
 		frame.setVisible(true);
 	}
