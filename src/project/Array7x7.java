@@ -57,7 +57,7 @@ public class Array7x7 {
 		Array7 temp = arrIn;
 		Array7 tempNext = getCol(0);
 		for(int i = 0; i < 7; i++){
-			if(i < 5){
+			if(i < 6){
 				setCol(i, temp);
 				temp = tempNext;
 				tempNext = getCol(i + 1);
@@ -66,14 +66,14 @@ public class Array7x7 {
 			}
 		}
 		
-		return temp;
+		return tempNext;
 	}
 	
 	public Array7 moveLeft(Array7 arrIn){ //Man ger den nya Array7 som input och får ut Array7 som skulle "trilla av"
 		Array7 temp = arrIn;
-		Array7 tempNext = getCol(0);
-		for(int i = 6; i > 0; i++){
-			if(i > 1){
+		Array7 tempNext = getCol(6);
+		for(int i = 6; i > -1; i--){
+			if(i > 0){
 				setCol(i, temp);
 				temp = tempNext;
 				tempNext = getCol(i - 1);
@@ -82,6 +82,6 @@ public class Array7x7 {
 			}
 		}
 		
-		return temp;
+		return tempNext;
 	}
 }
