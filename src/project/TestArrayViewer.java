@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class TestArrayViewer extends JPanel implements ActionListener {
-	JFrame frame;
+	private JFrame frame;
 	private JPanel inputRowPanel;
 	private JPanel inputColPanel;
 	private JPanel commandPanel;

@@ -54,14 +54,34 @@ public class Array7x7 {
 	}
 	
 	public Array7 moveRight(Array7 arrIn){  //Man ger den nya Array7 som input och får ut Array7 som skulle "trilla av"
-		Array7 arrOut = getCol(7);
-		setCol(0, arrIn);
-		return arrOut;
+		Array7 temp = arrIn;
+		Array7 tempNext = getCol(0);
+		for(int i = 0; i < 7; i++){
+			if(i < 5){
+				setCol(i, temp);
+				temp = tempNext;
+				tempNext = getCol(i + 1);
+			}else{
+				setCol(i, temp);
+			}
+		}
+		
+		return temp;
 	}
 	
 	public Array7 moveLeft(Array7 arrIn){ //Man ger den nya Array7 som input och får ut Array7 som skulle "trilla av"
-		Array7 arrOut = getCol(0);
-		setCol(7, arrIn);
-		return arrOut;
+		Array7 temp = arrIn;
+		Array7 tempNext = getCol(0);
+		for(int i = 6; i > 0; i++){
+			if(i > 1){
+				setCol(i, temp);
+				temp = tempNext;
+				tempNext = getCol(i - 1);
+			}else{
+				setCol(i, temp);
+			}
+		}
+		
+		return temp;
 	}
 }
