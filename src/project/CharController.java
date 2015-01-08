@@ -202,6 +202,9 @@ public class CharController {
 
 			case '_' : arr = cLibrary.charUnderline;
 			break;
+			
+			case '%' : arr = cLibrary.charProcent;
+			break;
 
 			
 			}

@@ -10,6 +10,11 @@ public class RollingText{
 		JOptionPane.showMessageDialog(null,cd);
 	}
 	
+	
+	
+	
+	
+	
 	public static void main(String[] args) {
 		RollingText lol = new RollingText();
 	}
