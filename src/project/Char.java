@@ -2,572 +2,572 @@ package project;
 
 public class Char {
 	public static int[][] charOne = {
-		{0,0,1,1,0,0,0},
-		{0,1,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,1,1,1,1,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charTwo = {
-		{0,0,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,1,1,1,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charThree = {
-		{0,0,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,1,1,0,0,0},
-		{0,0,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,0,1,1,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charFour = {
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,1,1,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,0,1,0,0}};
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charFive = {
-		{0,1,1,1,1,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,1,1,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,0,1,1,0,0,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charSix = {
-		{0,0,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,0,1,1,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charSeven = {
-		{0,1,1,1,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,0,1,0,0,0,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 	
 	public static int[][] charEight = {
-		{0,0,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,0,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,0,1,1,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charNine = {
-		{0,0,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,0,1,1,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,0,1,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charZ = {
-		{0,1,1,1,1,1,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,1,1,1,1,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK}};
 
 	public static int[][] charY = {
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,0,1,0,1,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0}};
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charX = {
-		{0,1,0,0,0,1,0},
-		{0,0,1,0,1,0,0},
-		{0,0,1,0,1,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,1,0,1,0,0},
-		{0,0,1,0,1,0,0},
-		{0,1,0,0,0,1,0}};
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK}};
 
 	public static int[][] charV = {
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,0,1,0,1,0,0},
-		{0,0,1,0,1,0,0},
-		{0,0,0,1,0,0,0}};
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charU = {
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,0,1,1,1,0,0}};
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charT = {
-		{0,1,1,1,1,1,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charS = {
-		{0,0,1,1,1,0,0},
-		{0,1,0,0,0,1,0},
-		{0,0,1,0,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,0,1,0,0},
-		{0,1,0,0,0,1,0},
-		{0,0,1,1,1,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charR = {
-		{0,1,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,1,1,0,0,0},
-		{0,1,1,0,0,0,0},
-		{0,1,0,1,0,0,0},
-		{0,1,0,0,1,0,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charA = {
-		{0,0,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,1,1,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charB = {
-		{0,0,1,1,1,0,0},
-		{0,0,1,0,1,1,0},
-		{0,0,1,0,0,1,0},
-		{0,0,1,1,1,0,0},
-		{0,0,1,0,0,1,0},
-		{0,0,1,0,0,1,0},
-		{0,0,1,1,1,1,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK}};
 
 	public static int[][] charC = {
-		{0,0,0,1,1,1,0},
-		{0,0,1,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,0,0,1,1,1,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK}};
 
 	public static int[][] charD = {
-		{0,1,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,1,1,0,0,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charE= {
-		{0,1,1,1,1,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,1,1,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,1,1,1,0,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charF = {
-		{0,1,1,1,1,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,1,1,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charG = {
-		{0,0,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,1,1,0,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,0,1,1,1,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charH = {
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,1,1,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0}};
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charI = {
-		{0,0,1,1,1,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,1,1,1,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charJ = {
-		{0,1,1,1,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,0,1,1,0,0,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charK = {
-		{0,1,0,0,1,0,0},
-		{0,1,0,1,0,0,0},
-		{0,1,0,1,0,0,0},
-		{0,1,1,0,0,0,0},
-		{0,1,0,1,0,0,0},
-		{0,1,0,1,0,0,0},
-		{0,1,0,0,1,0,0}};
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charL = {
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,1,1,1,0,0}};
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charM = {
-		{0,1,1,0,1,1,0},
-		{0,1,0,1,0,1,0},
-		{0,1,0,1,0,1,0},
-		{0,1,0,1,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK}};
 
 	public static int[][] charN = {
-		{0,1,0,0,0,1,0},
-		{0,1,1,0,0,1,0},
-		{0,1,0,1,0,1,0},
-		{0,1,0,1,0,1,0},
-		{0,1,0,1,0,1,0},
-		{0,1,0,0,1,1,0},
-		{0,1,0,0,0,1,0}};
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK}};
 
 	public static int[][] charO = {
-		{0,0,0,0,0,0,0},
-		{0,0,1,1,1,0,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,0,1,1,1,0,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charP = {
-		{0,1,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,1,1,1,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charQ = {
-		{0,0,0,0,0,0,0},
-		{0,0,1,1,1,0,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,1,0,1,0},
-		{0,0,1,1,1,0,0},
-		{0,0,0,0,0,1,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK}};
 
 	public static int[][] charPlus = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,1,1,1,1,1,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charMinus = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,1,1,1,1,1,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charXMark = {
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,1,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charMulti = {
-		{0,0,0,0,0,0,0},
-		{0,1,0,1,0,1,0},
-		{0,0,1,1,1,0,0},
-		{0,1,1,1,1,1,0},
-		{0,0,1,1,1,0,0},
-		{0,1,0,1,0,1,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charDivision = {
-		{0,0,1,0,0,0,0},
-		{0,1,0,1,0,1,0},
-		{0,0,1,0,1,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,1,0,1,0,0},
-		{0,1,0,1,0,1,0},
-		{0,0,0,0,1,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charComma = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,1,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charDot = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,1,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charDollar = {
-			{0,0,0,1,0,0,0},
-			{0,1,1,1,1,1,0},
-			{0,1,0,1,0,0,0},
-			{0,0,1,1,1,0,0},
-			{0,0,0,1,0,1,0},
-			{0,1,1,1,1,1,0},
-			{0,0,0,1,0,0,0}};
+			{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+			{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+			{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+			{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+			{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+			{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+			{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charEquals = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,1,1,1,1,1,0},
-		{0,0,0,0,0,0,0},
-		{0,1,1,1,1,1,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charFrontSlash = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charBackSlash = {
-		{0,0,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charLesserThan = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charGreaterThan = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charAnd = {
-		{0,0,1,1,0,0,0},
-		{0,1,0,0,1,0,0},
-		{0,0,1,1,0,0,0},
-		{0,0,1,1,0,1,0},
-		{0,1,0,0,1,0,0},
-		{0,1,0,0,1,0,0},
-		{0,0,1,1,0,1,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK}};
 
 
 	public static int[][] charAt = {
-		{0,0,1,1,1,1,0},
-		{0,1,0,1,0,0,1},
-		{1,0,1,0,1,0,1},
-		{1,1,0,0,1,0,1},
-		{1,0,1,0,0,1,1},
-		{0,1,0,1,1,0,1},
-		{0,0,1,1,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN},
+		{Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN},
+		{Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN},
+		{Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.GREEN},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charSpace = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charQuestionmark = {
-		{0,0,1,1,1,0,0},
-		{0,1,0,0,0,1,0},
-		{0,1,0,0,0,1,0},
-		{0,0,0,1,1,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,1,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charLBracket = {
-		{0,1,1,1,1,1,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,1,1,1,1,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK}};
 
 	public static int[][] charRBracket = {
-		{0,1,1,1,1,1,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,0,1,0},
-		{0,1,1,1,1,1,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK}};
 
 	public static int[][] charLParenthes = {
-		{0,0,0,1,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,0,0,1,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charRParenthes = {
-		{0,0,0,1,0,0,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,1,0,0},
-		{0,0,0,1,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charHashtag = {
-		{0,0,0,0,0,0,0},
-		{0,0,1,0,1,0,0},
-		{0,1,1,1,1,1,0},
-		{0,0,1,0,1,0,0},
-		{0,1,1,1,1,1,0},
-		{0,0,1,0,1,0,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charCurlyLBracket = {
-		{0,0,0,1,1,0,0},
-		{0,0,1,0,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,1,0,0,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,0,1,0,0,0,0},
-		{0,0,0,1,1,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charCurlyRBracket = {
-		{0,0,0,1,1,0,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,0,0,1},
-		{0,0,0,0,0,1,0},
-		{0,0,0,0,0,1,0},
-		{0,0,0,1,1,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charSemicolon = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,1,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charColon = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charQuotationmark = {
-		{0,1,1,0,1,1,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charUnderline = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,0,0},
-		{1,1,1,1,1,1,1}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN}};
 	
 	public static int[][] charProcent = {
-		{0,0,0,0,0,0,0},
-		{0,0,0,0,0,1,0},
-		{0,1,0,0,1,0,0},
-		{0,0,0,1,0,0,0},
-		{0,0,1,0,0,1,0},
-		{0,1,0,0,0,0,0},
-		{0,0,0,0,0,0,0}};
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
 
 
