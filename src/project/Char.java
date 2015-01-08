@@ -406,7 +406,7 @@ public class Char {
 		{0,0,0,0,0,1,0},
 		{0,0,0,0,0,0,1}};
 
-	public static int[][] charGreaterThan = {
+	public static int[][] charLesserThan = {
 		{0,0,0,0,0,0,0},
 		{0,0,0,0,1,1,0},
 		{0,0,1,1,0,0,0},
@@ -415,7 +415,7 @@ public class Char {
 		{0,0,0,0,1,1,0},
 		{0,0,0,0,0,0,0}};
 
-	public static int[][] charLesserThan = {
+	public static int[][] charGreaterThan = {
 		{0,0,0,0,0,0,0},
 		{0,1,1,0,0,0,0},
 		{0,0,0,1,1,0,0},

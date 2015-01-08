@@ -23,233 +23,186 @@ public class CharController {
 			System.out.println("runda"+i+"   Svar: "+chr);
 			
 			switch(chr){
-			case 'HÄR SKA SYMBOLEN VARA' : arr = cLibrary.charA;	//charA funktionen som symbolen finns på i Char
+			case 'A' : arr = cLibrary.charA;	//charA funktionen som symbolen finns på i Char
 			break;
 			
-			case '' : arr = cLibrary.char;
+			case 'B' : arr = cLibrary.charB;
 			break;
 			
-			case '' : arr = cLibrary.char;
+			case 'C' : arr = cLibrary.charC;
 			break;
 			
-			case '' : arr = cLibrary.char;
+			case 'D' : arr = cLibrary.charD;
 			break;
 			
-			case '' : arr = cLibrary.char;
+			case 'E' : arr = cLibrary.charE;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'F' : arr = cLibrary.charF;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'G' : arr = cLibrary.charG;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'H' : arr = cLibrary.charH;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'I' : arr = cLibrary.charI;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'J' : arr = cLibrary.charJ;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'K' : arr = cLibrary.charK;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'L' : arr = cLibrary.charL;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'M' : arr = cLibrary.charM;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'N' : arr = cLibrary.charN;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'O' : arr = cLibrary.charO;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'P' : arr = cLibrary.charP;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'Q' : arr = cLibrary.charQ;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'R' : arr = cLibrary.charR;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'S' : arr = cLibrary.charS;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'T' : arr = cLibrary.charT;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'U' : arr = cLibrary.charU;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'V' : arr = cLibrary.charV;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'X' : arr = cLibrary.charX;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'Y' : arr = cLibrary.charY;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case 'Z' : arr = cLibrary.charZ;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '1' : arr = cLibrary.charOne;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '2' : arr = cLibrary.charTwo;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '3' : arr = cLibrary.charThree;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '4' : arr = cLibrary.charFour;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '5' : arr = cLibrary.charFive;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '6' : arr = cLibrary.charSix;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '7' : arr = cLibrary.charSeven;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '8' : arr = cLibrary.charEight;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '9' : arr = cLibrary.charNine;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '+' : arr = cLibrary.charPlus;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '-' : arr = cLibrary.charMinus;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '!' : arr = cLibrary.charXMark;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '*' : arr = cLibrary.charMulti;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case ',' : arr = cLibrary.charComma;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '.' : arr = cLibrary.charDot;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '$' : arr = cLibrary.charDollar;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '=' : arr = cLibrary.charEquals;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '/' : arr = cLibrary.charFrontSlash;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '\\' : arr = cLibrary.charBackSlash;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '>' : arr = cLibrary.charGreaterThan;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '<' : arr = cLibrary.charLesserThan;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '&' : arr = cLibrary.charAnd;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '@' : arr = cLibrary.charAt;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case ' ' : arr = cLibrary.charSpace;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '?' : arr = cLibrary.charQuestionmark;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '[' : arr = cLibrary.charLBracket;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case ']' : arr = cLibrary.charRBracket;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '(' : arr = cLibrary.charLParenthes;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case ')' : arr = cLibrary.charRParenthes;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '#' : arr = cLibrary.charHashtag;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '{' : arr = cLibrary.charCurlyLBracket;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '}' : arr = cLibrary.charCurlyRBracket;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case ';' : arr = cLibrary.charSemicolon;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '"' : arr = cLibrary.charQuotationmark;
 			break;
 
-			case '' : arr = cLibrary.char;
+			case '_' : arr = cLibrary.charUnderline;
 			break;
 
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
-
-			case '' : arr = cLibrary.char;
-			break;
 			
 			}
 			
