@@ -195,5 +195,7 @@ public class ColorDisplay extends JComponent {
 
 		JOptionPane.showMessageDialog(null,d);
 		JOptionPane.showMessageDialog(null, new ColorDisplay(Color.RED,Color.WHITE));
+		
+		
 	}
 }
