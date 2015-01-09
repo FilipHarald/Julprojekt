@@ -1,4 +1,4 @@
-package project;
+package project.Char;
 
 import java.awt.Color;
 import java.awt.Graphics;
