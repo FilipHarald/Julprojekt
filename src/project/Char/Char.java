@@ -5,15 +5,14 @@ import project.Color;
 public class Char {
 	
 	public static int[][] charZero = {
-		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
-		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
-		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
-		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK}};
 
-	
 	public static int[][] charOne = {
 		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
@@ -123,7 +122,7 @@ public class Char {
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK}};
 
 	public static int[][] charV = {
-		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
@@ -131,6 +130,15 @@ public class Char {
 		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK},
 		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
 
+	public static int[][] charW = {
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK}};
+	
 	public static int[][] charU = {
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
@@ -178,13 +186,13 @@ public class Char {
 
 	public static int[][] charB = {
 		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
-		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
 		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
-		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK}};
-
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK}};
+	
 	public static int[][] charC = {
 		{Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
@@ -295,12 +303,12 @@ public class Char {
 
 	public static int[][] charO = {
 		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
 		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
-		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
-		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK}};
 
 	public static int[][] charP = {
 		{Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
@@ -449,13 +457,13 @@ public class Char {
 
 	public static int[][] charAt = {
 		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
-		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN},
-		{Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN},
-		{Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN},
+		{Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.GREEN},
 		{Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN},
-		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.GREEN},
+		{Color.GREEN,Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
 		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK}};
-
+	
 	public static int[][] charSpace = {
 		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
 		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
@@ -582,6 +590,13 @@ public class Char {
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
 		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
 
-
-
+	public static int[][] charUnknown = {
+		{Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN},
+		{Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN},
+		{Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN},
+		{Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN},
+		{Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN},
+		{Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN},
+		{Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN,Color.GREEN}};
+	
 }
