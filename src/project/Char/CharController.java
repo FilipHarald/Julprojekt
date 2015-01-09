@@ -12,7 +12,7 @@ public class CharController {
 		if (s != null) {
 			int diff = 4 - s.length();
 			if (diff > 0) {
-				for(int i = 0; i < diff; i++){
+				for (int i = 0; i < diff; i++) {
 					s = s + " ";
 				}
 			}
@@ -118,6 +118,10 @@ public class CharController {
 			case 'V':
 				characterArray[i] = new Array7x7(cLibrary.charV);
 				break;
+			
+			case 'W':
+				characterArray[i] = new Array7x7(cLibrary.charW);
+				break;
 
 			case 'X':
 				characterArray[i] = new Array7x7(cLibrary.charX);
@@ -130,7 +134,7 @@ public class CharController {
 			case 'Z':
 				characterArray[i] = new Array7x7(cLibrary.charZ);
 				break;
-				
+
 			case '0':
 				characterArray[i] = new Array7x7(cLibrary.charZero);
 				break;
@@ -279,6 +283,10 @@ public class CharController {
 				characterArray[i] = new Array7x7(cLibrary.charProcent);
 				break;
 
+			 default:
+			 characterArray[i] = new Array7x7(cLibrary.charUnknown);
+			 break;
+			
 			}
 		}
 		return characterArray;

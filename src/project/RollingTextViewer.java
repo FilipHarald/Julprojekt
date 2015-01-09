@@ -8,7 +8,7 @@ public class RollingTextViewer extends JFrame{
 	private ColorDisplay d;
 	private JFrame frame;
 	public RollingTextViewer() {
-		d = new ColorDisplay(1, 4, Color.BLACK, Color.RED);
+		d = new ColorDisplay(1, 4, Color.BLACK, Color.MAGENTA);
 		d.updateDisplay();
 		frame = new JFrame("Rolling text");
 		frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
