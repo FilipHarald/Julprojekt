@@ -12,6 +12,10 @@ public class Array7x7 {
 		this.arr7x7 = theArray;
 	}
 	
+	public int[][] getArray(){
+		return arr7x7;
+	}
+	
 	public void setElement(int row, int col, int value){//
 		arr7x7[row][col] = value;
 	}

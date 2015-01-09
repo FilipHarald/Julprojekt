@@ -6,18 +6,28 @@ import project.Arrays.Array7x7;
 
 public class CharController {
 	private Array7x7[] characterArray;
+	private String theString;
 
-	public CharController() {
-
+	public CharController(String s) {
+		if (s != null) {
+			int diff = 4 - s.length();
+			if (diff > 0) {
+				for(int i = 0; i < diff; i++){
+					s = s + " ";
+				}
+			}
+			characterArray = new Array7x7[s.length()];
+			theString = s + " ";
+		}
 	}
 
-	public Array7x7[] convertStringToListOfArray7x7(String s) {
+	public Array7x7[] getCharacterArray() {
 
-		s = s.toUpperCase();
-
+		theString = theString.toUpperCase();
 		Char cLibrary = new Char();
-		for (int i = 0; i < s.length(); i++) {
-			char chr = s.charAt(i);
+
+		for (int i = 0; i < theString.length(); i++) {
+			char chr = theString.charAt(i);
 
 			switch (chr) {
 			case 'A':
