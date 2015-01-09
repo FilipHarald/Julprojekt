@@ -3,6 +3,17 @@ package project.Char;
 import project.Color;
 
 public class Char {
+	
+	public static int[][] charZero = {
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK,Color.GREEN,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK},
+		{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}};
+
+	
 	public static int[][] charOne = {
 		{Color.BLACK,Color.BLACK,Color.GREEN,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},
 		{Color.BLACK,Color.GREEN,Color.BLACK,Color.GREEN,Color.BLACK,Color.BLACK,Color.BLACK},

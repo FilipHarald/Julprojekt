@@ -16,8 +16,9 @@ public class CharController {
 					s = s + " ";
 				}
 			}
+			s = s + " ";
 			characterArray = new Array7x7[s.length()];
-			theString = s + " ";
+			theString = s;
 		}
 	}
 
@@ -128,6 +129,10 @@ public class CharController {
 
 			case 'Z':
 				characterArray[i] = new Array7x7(cLibrary.charZ);
+				break;
+				
+			case '0':
+				characterArray[i] = new Array7x7(cLibrary.charZero);
 				break;
 
 			case '1':
