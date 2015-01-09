@@ -12,26 +12,12 @@ public class RollingText{
 		{Color.BLACK,Color.BLACK,Color.RED,Color.BLACK,Color.RED,Color.BLACK,Color.BLACK},
 		{Color.BLACK,Color.BLACK,Color.RED,Color.BLACK,Color.RED,Color.BLACK,Color.BLACK},
 		{Color.BLACK,Color.RED,Color.BLACK,Color.BLACK,Color.BLACK,Color.RED,Color.BLACK}};
-
-//	public RollingText() {
-//		ColorDisplay cd = new ColorDisplay(Color.RED, 4, Color.BLACK, Color.RED);
-//		JOptionPane.showMessageDialog(null,cd);
-//	}
-	
-	
-	
-	
-	
 	
 	public static void main(String[] args) {
 		
+		String s = JOptionPane.showInputDialog("Vilken text vill du ska rulla?");
 		
-		ColorDisplay cd = new ColorDisplay(1, 4, Color.BLACK, Color.RED);
-		JOptionPane.showMessageDialog(null,cd);
-		
-		
-		
-		ColorDisplay abc = new ColorDisplay(1, 4, Color.BLACK, Color.RED);
+		ColorDisplay abc = new ColorDisplay(1, 4, Color.BLACK, Color.GREEN);
 		abc.setDisplay(theColorArray);
 		abc.updateDisplay();
 		JOptionPane.showMessageDialog(null,abc);

@@ -1,4 +1,4 @@
-package project;
+package project.Arrays;
 
 public class Array7 {
 	private int [] arr7;

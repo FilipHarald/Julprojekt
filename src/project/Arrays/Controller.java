@@ -1,4 +1,5 @@
-package project;
+package project.Arrays;
+
 
 public class Controller {
 	private Array7 storedRow;

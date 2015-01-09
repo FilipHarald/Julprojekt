@@ -1,8 +1,9 @@
-package project;
+package project.Arrays;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 import javax.swing.*;
 
 public class TestArrayViewer extends JPanel implements ActionListener {

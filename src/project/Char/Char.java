@@ -1,4 +1,6 @@
-package project;
+package project.Char;
+
+import project.Color;
 
 public class Char {
 	public static int[][] charOne = {

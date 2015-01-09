@@ -1,9 +1,10 @@
-package project;
+package project.Arrays;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.Color;
+
 import javax.swing.*;
 
 public class TestArray7x7 extends JPanel implements ActionListener{

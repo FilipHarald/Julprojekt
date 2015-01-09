@@ -1,20 +1,15 @@
-package project;
+package project.Arrays;
 
 public class Array7x7 {
 	private int[][] arr7x7;
 	
 	
 	public Array7x7(){
-//		arr7x7 = new int[7][7];
-		arr7x7 = new int[][]{
-		{ 0, 0, 0, 0, 0, 0, 0 },
-		{ 0, 0, 0, 0, 0, 0, 0 },
-		{ 0, 0, 0, 0, 0, 0, 0 },
-		{ 0, 0, 0, 0, 0, 0, 0 },
-		{ 0, 0, 0, 0, 0, 0, 0 },
-		{ 0, 0, 0, 0, 0, 0, 0 },
-		{ 0, 0, 0, 0, 0, 0, 0 }
-		};
+		arr7x7 = new int[7][7];
+	}
+	
+	public Array7x7(int[][] theArray){
+		this.arr7x7 = theArray;
 	}
 	
 	public void setElement(int row, int col, int value){//
