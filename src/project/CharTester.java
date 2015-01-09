@@ -26,8 +26,8 @@ public class CharTester extends JFrame {
 	public void paint(Graphics g) {
 		for (int y = 0; y < 7; y++) {
 			for (int x = 0; x < 7; x++) {
-				if (this.chrArray[y][x] == 1) {
-					g.setColor(Color.BLACK);
+				if (this.chrArray[y][x] == -16711936) {
+					g.setColor(Color.GREEN);
 				} else {
 					g.setColor(Color.LIGHT_GRAY);
 				}
