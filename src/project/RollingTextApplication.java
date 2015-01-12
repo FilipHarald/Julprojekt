@@ -21,17 +21,24 @@ public class RollingTextApplication {
 		Array7x7[] theBlocks = new Array7x7[4];
 
 		for (int i = 0; i < 4; i++) {
-			theBlocks[i] = new Array7x7(new int[][]{
-				{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
-				{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
-				{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
-				{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
-				{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
-				{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK},
-				{Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK}});
+			theBlocks[i] = new Array7x7(new int[][] {
+					{ Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK,
+							Color.BLACK, Color.BLACK, Color.BLACK },
+					{ Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK,
+							Color.BLACK, Color.BLACK, Color.BLACK },
+					{ Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK,
+							Color.BLACK, Color.BLACK, Color.BLACK },
+					{ Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK,
+							Color.BLACK, Color.BLACK, Color.BLACK },
+					{ Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK,
+							Color.BLACK, Color.BLACK, Color.BLACK },
+					{ Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK,
+							Color.BLACK, Color.BLACK, Color.BLACK },
+					{ Color.BLACK, Color.BLACK, Color.BLACK, Color.BLACK,
+							Color.BLACK, Color.BLACK, Color.BLACK } });
 		}
 
-		while(true) {
+		while (true) {
 			for (int i = 0; i < characterArray.length; i++) {
 				for (int k = 0; k < 7; k++) {
 

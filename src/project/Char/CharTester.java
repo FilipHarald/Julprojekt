@@ -18,9 +18,6 @@ public class CharTester extends JFrame {
 		setBackground(java.awt.Color.WHITE);
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		
-		
-//		repaint();
 	}
 
 	public void paint(Graphics g) {

@@ -118,7 +118,7 @@ public class CharController {
 			case 'V':
 				characterArray[i] = new Array7x7(cLibrary.charV);
 				break;
-			
+
 			case 'W':
 				characterArray[i] = new Array7x7(cLibrary.charW);
 				break;
@@ -283,10 +283,10 @@ public class CharController {
 				characterArray[i] = new Array7x7(cLibrary.charProcent);
 				break;
 
-			 default:
-			 characterArray[i] = new Array7x7(cLibrary.charUnknown);
-			 break;
-			
+			default:
+				characterArray[i] = new Array7x7(cLibrary.charUnknown);
+				break;
+
 			}
 		}
 		return characterArray;
